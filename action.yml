@@ -96,4 +96,4 @@ runs:
     - name: Upload Pages Artifact
       uses: actions/upload-pages-artifact@v1
       with:
-        path: "${{ inputs.path }}/dist/"
+        path: "${{ inputs.path }}/vercel/functions/render.func/dist"
